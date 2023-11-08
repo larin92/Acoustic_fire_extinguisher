@@ -1,0 +1,7 @@
+{
+    "eta": 0.1,
+    "max_depth": 10,
+    "n_estimators": 500,
+    "random_state": 42,
+    "subsample": 0.9
+}
