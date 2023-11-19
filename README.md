@@ -6,8 +6,6 @@ This project utilizes the [Acoustic Extinguisher Fire Dataset](https://www.kaggl
 
 The model is served using `FastAPI`/`Uvicorn` and can be deployed using [Docker](#docker-setup).
 
-This project is about predicting , more information below.
-
 For an interesting demonstration of the underlying concept (though not directly related to dataset), check out these YouTube videos:
 - [Acoustic 🔥Fire🔥 Extinguisher demo 1](https://www.youtube.com/watch?v=uPVQMZ4ikvM)
 - [Acoustic 🔥Fire🔥 Extinguisher demo 2](https://www.youtube.com/watch?v=DanOeC2EpeA)

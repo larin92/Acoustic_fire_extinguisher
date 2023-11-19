@@ -4,13 +4,14 @@ from pydantic import BaseModel, validator, ValidationError
 import numpy as np
 import xgboost as xgb
 from sklearn.feature_extraction import DictVectorizer
+from .training_script import MODEL_DV_PATH
 
 app = FastAPI()
 
 # Load the trained model and the DictVectorizer
 model: xgb.XGBClassifier
 dv: DictVectorizer
-model, dv = load('model_dv.pkl')
+model, dv = load(MODEL_DV_PATH)
 
 # Define a request model
 class PredictRequest(BaseModel):
